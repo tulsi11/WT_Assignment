@@ -1,0 +1,38 @@
+@media screen and (max-width: 1000px) {
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+    nav ul{
+        height: 34px;
+    }
+    .logo{
+        justify-content: center;
+    }
+    nav ul{
+        justify-content: center;
+    }
+    .searchBar{
+        justify-content: center;
+    }
+    .searchBar input{
+        margin: 12px 16px;
+    }
+    .slider{
+        height: 24vh;
+    }
+    .card-items img{
+        width: 144px;
+        height: 144px;
+        overflow: scroll;
+    } 
+    .card-items img:hover{
+        width: 148px;
+        height: 148px;
+    } 
+    footer{
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+    }
+}

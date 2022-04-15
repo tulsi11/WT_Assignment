@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                background-color: #deeeee;
+            }
+            .container{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            #ui,#pw{
+                border-radius: 2px solid;
+                width: 300px;
+                height: 20px;
+                padding: 10px;
+            }
+            #btn{
+                width: 320px;
+                height: 40px;
+                background-color: blueviolet;
+                color: white;
+                padding: 10px;
+                opacity: 0.7;
+            }
+            #btn:hover{
+                background-color: blueviolet;
+                opacity: 1;
+            }
+        </style>
+    </head>
+    <body>
+        <h2 style="text-align: center;">
+            <u>Login Page</u>
+        </h2>
+        <div class="container">
+            <form action="#" method="get" onsubmit="validation()">
+                UserId:
+                <br>
+                <input type="text" placeholder="Enter Username"  id="ui">
+                <br><br>
+                Password: <br>
+                <input type="password"  id="pw" placeholder="Enter Password">
+                <br><br>
+                <button id="btn">Submit</button>
+            </form>
+        </div>
+        
+        <script>
+            function validation(){
+                const userid=document.getElementById("ui").value;
+                const passw=document.getElementById("pw").value;
+                if(userid==""){
+                    alert("enter userid");
+                }
+                if(passw<8){
+                    alert("enter password 8 characters and more")
+                }
+                return;
+            }
+           </script> 
+    </body>
+</html>

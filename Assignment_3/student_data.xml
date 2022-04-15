@@ -1,0 +1,40 @@
+<?xml version = "1.0"?> 
+<?xml-stylesheet type = "text/xsl" href = "student_data.xsl"?> 
+
+<class>
+   <student id = "1">
+      <firstname>Tulsi</firstname>
+      <lastname>Chopade</lastname>
+      <rollno>129</rollno>
+      <div>TE A</div>
+   </student>
+
+   <student id = "2">
+      <firstname>Omkar</firstname>
+      <lastname>Gawari</lastname>
+      <rollno>157</rollno>
+      <div>TE A</div>
+   </student>
+
+   <student id = "3">
+      <firstname>Komal</firstname>
+      <lastname>Karkhile</lastname>
+      <rollno>364</rollno>
+      <div>TE C</div>
+   </student>
+
+   <student id = "4">
+      <firstname>Abhi</firstname>
+      <lastname>Rath</lastname>
+      <rollno>313</rollno>
+      <div>TE C</div>
+   </student>
+
+   <student id = "5">
+      <firstname>Sakshi</firstname>
+      <lastname>Tendulkar</lastname>
+      <rollno>348</rollno>
+      <div>TE C</div>
+   </student>
+
+</class>

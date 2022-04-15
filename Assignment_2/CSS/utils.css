@@ -1,0 +1,21 @@
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.my-1{
+    margin: 10px 0;
+}
+.my-2{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.text-center{
+    text-align: center;
+    font-weight: 500;
+}
+hr{
+    margin: 10px auto;
+    color: #d2d6dd;
+}
